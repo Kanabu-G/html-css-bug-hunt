@@ -19,19 +19,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: blue;
-    font-weight bold;  /* ERROR: Missing colon */
+    font-weight: bold;  /* ERROR: Missing colon */
 }
 
 .btn {
     background-color: blue;
     color: white;
     padding: 10px 20px;
-    border none;  /* ERROR: Missing colon */
+    border: none;  /* ERROR: Missing colon */
     cursor: pointer;
-    text-decoration: non;  /* ERROR: Incorrect value */
+    text-decoration: none;  /* ERROR: Incorrect value */
     border-radius: 5px;
 }
 
 .btn:hover {
-    background color: darkblue;  /* ERROR: Missing colon */
+    background-color: darkblue;  /* ERROR: Missing colon */
 }
